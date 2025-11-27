@@ -47,6 +47,7 @@ module.enable = function(self)
         end
       elseif this.mode == "ENERGY" and diff > 0 then
         this.target = 2
+        print(diff)
       end
       this.lastMana = this.currentMana
     end
